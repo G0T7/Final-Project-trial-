@@ -1,0 +1,33 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #000; /* Change this to your desired nav background color */
+    border: 2px solid #fff;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff; /* Change this to your desired link color */
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar a {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+}
