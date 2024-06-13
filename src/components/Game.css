@@ -1,0 +1,36 @@
+#game-board {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    position: relative;
+    border: 4px solid #fff; /* Change this to your desired border color */
+  }
+  
+  .snake {
+    background-color: green;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .food {
+    background-color: red;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (max-width: 768px) {
+    #game-board {
+      width: 90vmin;
+      height: 90vmin;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #game-board {
+      width: 95vmin;
+      height: 95vmin;
+    }
+  }
