@@ -5,11 +5,12 @@ body {
   font-family: 'Press Start 2P', cursive;
   background-color: #333; /* Change this to your desired background color */
   color: #fff; /* Change this to your desired font color */
-  display: flex-start;
+  display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  
   text-align: center;
+  margin-bottom: -35px;
 }
 
 .App {
